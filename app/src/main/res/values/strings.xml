@@ -3,5 +3,27 @@
     <string name="btnLayout">Layout Exercise</string>
     <string name="blueb">Ayato</string>
     <string name="violetg">Kuki</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="ac">AC</string>
+    <string name="neg">-/+</string>
+    <string name="percent"> % </string>
+    <string name="Erase">C</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="divide"> / </string>
+    <string name="foure">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="multiplication"> × </string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="subtract"> - </string>
+    <string name="point">.</string>
+    <string name="zero">0</string>
+    <string name="plus"> + </string>
+    <string name="equals">=</string>
 
+    <string name="placeholder">0</string>
 </resources>
