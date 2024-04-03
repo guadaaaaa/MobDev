@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLayout;
     Button btnButton;
     Button btnCalc;
+    Button btnMatch;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent3 = new Intent(MainActivity.this, CalculatorExercise.class);
                 startActivity(intent3);
+            }
+        });
+
+        btnMatch = (Button)findViewById(R.id.btnMatch);
+        btnMatch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this, MatchActivity.class);
+                startActivity(intent4);
             }
         });
 
