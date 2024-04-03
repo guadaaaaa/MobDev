@@ -153,7 +153,34 @@ public class MatchActivity extends AppCompatActivity {
                     btn[row2][col2].setBackgroundColor(colors[green]);
                     btn[row2][col2].setTag("Green");
                 }
+            } else if(btn[row1][col1].getTag().toString().equals("Yellow")){
+                if(btn[row2][col2].getTag().toString().equals("Red")){
+                    btn[row1][col1].setBackgroundColor(colors[red]);
+                    btn[row1][col1].setTag("Red");
+                    btn[row2][col2].setBackgroundColor(colors[yellow]);
+                    btn[row2][col2].setTag("Yellow");
+                } else if(btn[row2][col2].getTag().toString().equals("Blue")){
+                    btn[row1][col1].setBackgroundColor(colors[blue]);
+                    btn[row1][col1].setTag("Blue");
+                    btn[row2][col2].setBackgroundColor(colors[yellow]);
+                    btn[row2][col2].setTag("Yellow");
+                } else if(btn[row2][col2].getTag().toString().equals("Green")){
+                    btn[row1][col1].setBackgroundColor(colors[green]);
+                    btn[row1][col1].setTag("Green");
+                    btn[row2][col2].setBackgroundColor(colors[yellow]);
+                    btn[row2][col2].setTag("Yellow");
+                } else if(btn[row2][col2].getTag().toString().equals("Yellow")){
+                    btn[row1][col1].setBackgroundColor(colors[yellow]);
+                    btn[row1][col1].setTag("Yellow");
+                    btn[row2][col2].setBackgroundColor(colors[yellow]);
+                    btn[row2][col2].setTag("Yellow");
+                }
             }
+        } else {
+            rowArr.clear();
+            colArr.clear();
         }
+        rowArr.clear();
+        colArr.clear();
     }
 }
