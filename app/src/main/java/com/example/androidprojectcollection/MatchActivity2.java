@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class MatchActivity2 extends AppCompatActivity {
     int[] colors = {R.drawable.redcandy, R.drawable.bluecandy, R.drawable.purplecandy, R.drawable.orangecandy};
-    static final int red = 0, blue = 1, purple = 2, orange = 3;
+    static final int red = 0, blue = 1, purple= 2, orange = 3;
     ImageButton[][] btn;
     Button btnRestart;
     int[][] btnColors = new int[5][5];
