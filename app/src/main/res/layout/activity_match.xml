@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatchActivity">
+    tools:context=".MatchActivity"
+    android:background="@drawable/bg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,13 +30,15 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:alpha="1">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn00"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -43,7 +46,7 @@
                     android:layout_weight="1"
                     android:text="    " />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn01"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -51,7 +54,7 @@
                     android:layout_weight="1"
                     android:text="    " />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn02"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -59,7 +62,7 @@
                     android:layout_weight="1"
                     android:text="    " />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn03"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -67,7 +70,7 @@
                     android:layout_weight="1"
                     android:text="    " />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn04"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -80,35 +83,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn10"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn11"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn12"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn13"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn14"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -120,35 +123,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn20"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn21"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn22"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn23"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn24"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -160,35 +163,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn30"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn31"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn32"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn33"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn34"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -200,35 +203,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn40"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn41"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn42"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn43"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_margin="3dp"
                     android:layout_weight="1" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn44"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -270,18 +273,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:text="RESTART" />
-
-        <TextView
-            android:id="@+id/tvSize"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="0" />
-
-        <TextView
-            android:id="@+id/tvPos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
 
     </LinearLayout>
 

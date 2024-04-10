@@ -12,16 +12,15 @@
         android:theme="@style/Theme.AndroidProjectCollection"
         tools:targetApi="31">
         <activity
-            android:name=".MatchActivity2"
-            android:exported="false" />
-        <activity
             android:name=".MatchActivity"
             android:exported="false" />
         <activity
             android:name=".CalculatorExercise"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="false" />
         <activity
             android:name=".ButtonExercise_EmptyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="false" />
         <activity
             android:name=".ButtonExercise"
