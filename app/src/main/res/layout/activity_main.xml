@@ -36,14 +36,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Calculator Exercise" />
+            android:text="Calculator" />
 
         <Button
-            android:id="@+id/btnThird"
+            android:id="@+id/btnMidterm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Midterm" />
 
         <Button
             android:id="@+id/btnMatch"
@@ -53,39 +53,26 @@
             android:text="Match 3" />
 
         <Button
-            android:id="@+id/btnMatch3V2"
+            android:id="@+id/btnPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="BUTTON" />
+            android:text="Passing Intent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnFrag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Fragments" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Menus" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
