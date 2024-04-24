@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnCalc;
     Button btnMatch;
     Button btnPass;
+    Button btnMenu;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +64,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent5 = new Intent(MainActivity.this, PassingIntentsExercise.class);
                 startActivity(intent5);
+            }
+        });
+
+        btnMenu = (Button) findViewById(R.id.btnMenu);
+        btnMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent6 = new Intent(MainActivity.this, MenuExercise.class);
+                startActivity(intent6);
             }
         });
     }
